@@ -1,0 +1,19 @@
+.datatable-main {
+  margin-top: 30px;
+  .ant-table-title {
+    h6 {
+      font-weight: 600;
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+  .ant-table-thead {
+    tr,
+    th,
+    td {
+      // background: #ddf5ff !important;
+      background: #fff1e1 !important;
+      border-bottom: 1px solid #f5dbbe !important;
+    }
+  }
+}

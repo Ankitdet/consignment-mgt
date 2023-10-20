@@ -1,0 +1,24 @@
+.consignment-download-excel-main {
+  display: flex;
+  justify-content: flex-end;
+  .consignment-download-excel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    min-width: 150px;
+    background: #eeeeee;
+    border: 1px solid #bebebe;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px;
+    .consignment-download-icon {
+      height: 22px;
+      width: 22px;
+    }
+    .consignment-download-text {
+      padding-left: 5px;
+      color: #1c1c1c;
+    }
+  }
+}

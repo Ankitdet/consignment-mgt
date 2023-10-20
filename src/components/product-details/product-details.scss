@@ -1,0 +1,74 @@
+.consignment-product-detail-main {
+  .consignment-btn-container {
+    text-align: right;
+    .consignment-add-product-btn {
+      font-weight: 500;
+    }
+  }
+  .consignment-product-img-list {
+    .ant-upload-list-item-actions {
+      display: none;
+    }
+    .ant-upload-list-item,
+    .ant-upload-list-item-done::before {
+      background-color: initial !important;
+    }
+  }
+  .consignment-product-search-input {
+    background: #ffffff;
+    border: 1px solid #dfe0eb;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    .consignment-product-search-icon {
+      cursor: pointer;
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+    .consignment-product-search {
+      border: none;
+      width: 100%;
+      font-size: 14px;
+    }
+    .consignment-product-search:focus {
+      outline: none;
+    }
+    .consignment-product-search-clear {
+      cursor: pointer;
+      width: 14px;
+      height: 14px;
+    }
+  }
+}
+
+.consignment-add-product-form {
+  .add-product-first-row,
+  .add-product-second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .add-product-btn {
+    padding-top: 10px;
+    .add-form-button {
+      margin-right: 20px;
+      min-width: 80px;
+    }
+    .reset-form-button {
+      min-width: 80px;
+    }
+  }
+  .consignment-product-img-upload {
+    .anticon-eye {
+      display: none;
+    }
+  }
+}
+
+.ant-modal-body {
+  padding-top: 10px;
+}

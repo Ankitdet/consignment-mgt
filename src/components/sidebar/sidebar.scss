@@ -1,0 +1,41 @@
+.consignment-sidebar-main {
+  min-width: 240px !important;
+  max-width: 240px !important;
+  .consignment-header-logo-section {
+    .consignment-header-logo {
+      width: 180px;
+      height: 50px;
+      margin: 20px;
+      &.short-logo {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  &.collapsed-sidebar {
+    min-width: 90px !important;
+    max-width: 90px !important;
+  }
+  .ant-menu-title-content {
+    text-align: left;
+    padding-left: 5px;
+  }
+  .consignment-sidebar-icons {
+    font-size: 20px !important;
+  }
+}
+
+.consignment-header-layout-main {
+  display: grid;
+  grid-template-columns: 0.1fr 2fr;
+  border-bottom: 1px solid #e8e8e8;
+  background: #ffffff;
+  .consignment-header-layout-collapse-btn {
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

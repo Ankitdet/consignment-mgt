@@ -1,0 +1,11 @@
+.default-layout {
+  width: 100vw;
+  height: 100vh;
+}
+
+.consignment-app-content {
+  height: inherit;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+}

@@ -1,0 +1,52 @@
+.consignment-header-main {
+  padding: 20px 20px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-text {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+  .consignment-header-btn-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    .consignment-user-icon {
+      border: 1px solid #1c1c1c;
+      padding: 5px;
+      border-radius: 8px;
+      font-size: 20px;
+      color: #ffffff;
+      background: #d7c2aa;
+    }
+    .consignment-user-name {
+      padding-left: 10px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .consignment-logout-icon {
+      font-size: 22px;
+      cursor: pointer;
+    }
+  }
+}
+
+.colors {
+  background: #585148;
+  background: #d7c2aa;
+  background: #a36650;
+  background: #e8c880;
+  background: #bebebe;
+  background: #d4ad9c;
+  background: #bfd6eb;
+  background: #3b8085;
+  background: #427c99;
+  background: #dedfb3;
+  background: #b4b77b;
+  background: #b89d83;
+  background: #92b8d6;
+  background: #dbaa35;
+}
