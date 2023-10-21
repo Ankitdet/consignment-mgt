@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Upload } from 'antd';
 import AddProductModal from './AddProductModal';
 import DataTable from '../common/dataTable/DataTable';
@@ -66,6 +66,13 @@ export default function ProductDetails() {
   ];
 
   const [tableData, setTableData] = useState(productData);
+
+  useEffect(() => {
+    if (productData) {
+      setTableData(productData);
+    }
+  }, [productData]);
+
   const [searchVal, setSearchVal] = useState('');
   const filterColumns = ['productionNo', 'finishing', 'sampleNo', 'noOfFaces'];
 
@@ -119,9 +126,11 @@ export default function ProductDetails() {
         )}
       </div>
 
-      <div>
-        <ExcelDownload columnHeaders={columns} data={productData} />
-      </div>
+      {productData && (
+        <div>
+          <ExcelDownload columnHeaders={columns} data={productData} />
+        </div>
+      )}
 
       {tableData?.length > 0 && (
         <DataTable
